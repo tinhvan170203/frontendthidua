@@ -1,0 +1,38 @@
+.Mui-expanded {
+    background-color: #750505 !important;
+}
+
+.MuiAccordionSummary-content {
+    margin: 4px 0 !important;
+}
+
+.MuiAccordion-root:hover {
+    background-color: #750505 !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.active>* {
+    background-color: #ad0202;
+    /* opacity: 0.8; */
+}
+
+.MuiButtonBase-root.MuiAccordionSummary-root {
+    background-color: #750505;
+
+}
+
+.MuiButtonBase-root.MuiAccordionSummary-root:hover {
+    background-color: #750505;
+
+}

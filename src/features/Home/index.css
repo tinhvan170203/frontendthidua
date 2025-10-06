@@ -1,0 +1,24 @@
+/* Căn giữa toàn bộ slide */
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hoặc tùy chọn cho ảnh */
+.slick-slide img {
+  margin: auto;
+  display: block;
+}
+/* Đặt chiều cao cố định cho các slide và căn giữa nội dung theo chiều dọc */
+.slick-slide {
+  height: calc(100vh - 368px); 
+  display: flex;
+  justify-content: center; /* căn giữa theo chiều ngang */
+  align-items: center;     /* căn giữa theo chiều dọc */
+
+}
+
+.slide-content {
+  text-align: center;
+}

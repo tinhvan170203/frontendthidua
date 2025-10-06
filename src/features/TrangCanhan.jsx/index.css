@@ -1,0 +1,26 @@
+.scrollhide::-webkit-scrollbar-thumb {
+    background-color:transparent;
+  }
+  
+  .step:last-child  hr{
+    display: none;
+  }
+  .scrollhide{
+    overflow-x: scroll;
+  }
+
+ .scrollhide::-webkit-scrollbar {
+    width: 4px;               /* width of the entire scrollbar */
+  }
+  ::-webkit-scrollbar:horizontal {
+  height: 8px; /* Chiều cao của thanh cuộn ngang */
+}
+ .scrollhide::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+  }
+  
+ .scrollhide:hover::-webkit-scrollbar-thumb {
+    background-color: rgb(175, 0, 0);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid gray;  /* creates padding around scroll thumb */
+  }
