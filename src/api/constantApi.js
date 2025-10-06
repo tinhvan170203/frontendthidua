@@ -4,7 +4,7 @@ const PORT_SERVER = 4000;
 const IP_SERVER = "http://localhost"
 
 // const API_SERVER = "http://10.15.15.2:5000/"
-const API_SERVER = `${IP_SERVER}:${PORT_SERVER}`
-// const API_SERVER = `http://192.168.1.10:4000`
+// const API_SERVER = `${IP_SERVER}:${PORT_SERVER}`
+const API_SERVER = `https://thiduakhenthuong.onrender.com`
 
 export {API_SERVER} 
